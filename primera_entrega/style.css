@@ -1,0 +1,12 @@
+
+
+/*caja de estilo*/
+
+
+/* Importo tipografia Lexend Peta de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+
+body{
+ background-color: rgb(240, 156, 156);
+ font: size 22px;
+ font-family: 'Lexend Peta' , sans-serif; 
