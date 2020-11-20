@@ -1,0 +1,47 @@
+main{
+    background-color: white;
+    color: black;
+    width: 90%;
+}
+
+.animacion{
+    width: 100px;
+    height: 72px;
+    background: url("caballo\ saltando\ .png");
+    animation: secc 1s steps(5) infinite;
+}
+
+.animacion1{
+    width: 100px;
+    height: 72px;
+    background: url("caballo\ saltando\ .png");
+    animation: secc 2s steps(5) infinite;
+}
+.animacion2{
+    width: 100px;
+    height: 72px;
+    background: url("caballo\ saltando\ .png");
+    animation: secc 0.5s steps(5) infinite;
+}
+.animacion3{
+    width: 100px;
+    height: 72px;
+    background: url("caballo\ saltando\ .png");
+    animation: secc 3s steps(5) infinite;
+}
+.animacion4{
+    width: 100px;
+    height: 72px;
+    background: url("caballo\ saltando\ .png");
+    animation: secc 0.8s steps(5) infinite;
+}
+@keyframes secc{
+
+    0%{
+        background-position: -0px;
+    }
+
+    100%{
+        background-position: -490px;
+    }
+}
